@@ -1,0 +1,9 @@
+GET /register.php?error=getaccess HTTP/1.1
+Host: localhost:8008
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://localhost/
+Cookie: PHPSESSID=m2qjh104n3knk9aeo1tvbd10e3
+

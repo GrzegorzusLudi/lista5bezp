@@ -1,0 +1,2 @@
+ ·
+<a href="wszystkieprzelewy.php">Zatwierdzaj przelewy</a>

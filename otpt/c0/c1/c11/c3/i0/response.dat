@@ -1,0 +1,35 @@
+HTTP/1.1 302 Found
+Date: Sun, 26 Nov 2017 14:12:41 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: login.php
+Content-Length: 921
+Keep-Alive: timeout=5, max=62
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-color:black;color:white;text-align:center}
+a{text-decoration:none;color:#ccf}
+#zdiv{border:1px solid white;width:600px;margin:auto;margin-top:10px;background-color:#222}
+#titl{border:1px solid white;width:600px;font-size:30pt;margin:auto;margin-top:10px;background-color:#222}
+#links{font-size:14pt;margin-top:5px}
+</style>
+</head>
+<body>
+<div id="titl">
+Twój bank
+<div id="links">
+</div>
+</div>
+<div id="zdiv">
+
+<p>
+Przelew:
+</p>
+<form method="POST" id="f" action="przelewregister.php"
